@@ -24,4 +24,6 @@ db = scoped_session(sessionmaker(bind=engine))
 
 @app.route("/")
 def index():
-    return "Project 1: TODO Marcelo"
+    return "Project 1: TODO Marcelo, will do this"
+def function():
+    return "this is a string"

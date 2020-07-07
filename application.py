@@ -27,3 +27,6 @@ def index():
     return "Project 1: TODO Marcelo, will do this"
 def function():
     return "this is a string"
+def another_function():
+    variable = True
+    return variable 
